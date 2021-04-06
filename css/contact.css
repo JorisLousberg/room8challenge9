@@ -1,0 +1,63 @@
+.inhoudcontact {
+  height: fit-content;
+  width: 100vw;
+  margin-top: 5vh;
+}
+
+h2 {
+  text-align: center;
+  padding-top: 3vh;
+}
+
+body {
+  background-color: rgba(245, 236, 0, 0.7);
+}
+
+#AlgemeneInfo {
+  width: 80vw;
+  height: 27vh;
+  margin: auto;
+  box-shadow: 5px 5px 15px #bbbbbb;
+  background-color: white;
+  border-radius: 8px;
+  margin-top: 3vh;
+}
+
+#CoronaInfo {
+  width: 80vw;
+  height: 23vh;
+  margin: auto;
+  box-shadow: 5px 5px 15px #bbbbbb;
+  background-color: white;
+  border-radius: 8px;
+  margin-top: 3vh;
+}
+
+#AdresInfo {
+  width: 80vw;
+  height: 20vh;
+  margin: auto;
+  box-shadow: 5px 5px 15px #bbbbbb;
+  background-color: white;
+  border-radius: 8px;
+  margin-top: 3vh;
+}
+
+#tekst {
+  padding: 4vw;
+  padding-top: 1vh;
+  margin-top: 2vh;
+}
+
+#HoofdkantoorTekst {
+  padding: 4vw;
+  padding-top: 1vh;
+  margin-top: 2vh;
+}
+
+#LocatieTekst {
+  padding: 4vw;
+  padding-top: 1vh;
+  margin-top: -15vh;
+  margin-left: 52vw;
+}
