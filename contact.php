@@ -25,7 +25,7 @@
           <li class="navItem"><a class="navLink" href="#">Werken bij</a></li>
         </ul>
         <ul class="navList">
-          <li class="navItem"><a class="navLink" href="#">Contact Opnemen</a></li>
+          <li class="navItem"><a class="navLink" href="contact.php">Contact Opnemen</a></li>
         </ul>
       </nav>
     </section>
