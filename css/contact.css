@@ -1,7 +1,5 @@
-.inhoudcontact {
-  height: fit-content;
-  width: 100vw;
-  margin-top: 5vh;
+body {
+  
 }
 
 h2 {
@@ -9,31 +7,24 @@ h2 {
   padding-top: 3vh;
 }
 
-body {
-  background-color: rgba(245, 236, 0, 0.7);
+.inhoudcontact {
+  height: fit-content;
+  width: 100vw;
+  margin-top: 5vh;
 }
 
 #AlgemeneInfo {
   width: 80vw;
-  height: 27vh;
+  height: 25vh;
   margin: auto;
   box-shadow: 5px 5px 15px #bbbbbb;
   background-color: white;
   border-radius: 8px;
-  margin-top: 3vh;
+  margin-top: 2vh;
+  background-color: rgba(245, 236, 0, 0.8);
 }
 
 #CoronaInfo {
-  width: 80vw;
-  height: 23vh;
-  margin: auto;
-  box-shadow: 5px 5px 15px #bbbbbb;
-  background-color: white;
-  border-radius: 8px;
-  margin-top: 3vh;
-}
-
-#AdresInfo {
   width: 80vw;
   height: 20vh;
   margin: auto;
@@ -41,6 +32,18 @@ body {
   background-color: white;
   border-radius: 8px;
   margin-top: 3vh;
+  background-color: rgba(245, 236, 0, 0.8);
+}
+
+#AdresInfo {
+  width: 80vw;
+  height: 22vh;
+  margin: auto;
+  box-shadow: 5px 5px 15px #bbbbbb;
+  background-color: white;
+  border-radius: 8px;
+  margin-top: 3vh;
+  background-color: rgba(245, 236, 0, 0.8);
 }
 
 #tekst {
@@ -59,5 +62,10 @@ body {
   padding: 4vw;
   padding-top: 1vh;
   margin-top: -15vh;
-  margin-left: 52vw;
+  margin-left: 55vw;
 }
+
+@media screen and (max-width: 600px) {
+  body {
+    background-color: red;
+  }
