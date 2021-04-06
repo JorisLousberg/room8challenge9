@@ -29,6 +29,7 @@
                 </section> 
                 </nav>
 
+
     <div class="mainbody">
         <div class="bannerimage"><img src="images/bannerimage.png" alt="banner homepage" style="width:165vh;height:55vh;padding-left:45vh;"></div>
 
@@ -47,4 +48,5 @@
               <div id="footertext2">telefoonnummer: 06 87654321</div>
         </div>
     </footer> 
+    
 </body>   
