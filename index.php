@@ -28,7 +28,7 @@
                         <li class="navItem"><a class="navLink" href="contact.php">Contact Opnemen</a></li>
                     </ul>
                 </nav>
-            </section>
+            </section> 
         </nav>
 
 
@@ -37,12 +37,18 @@
                     style="width:165vh;height:55vh;padding-left:45vh;"></div>
 
             <section id="textbox1">
-                <section class="textbox1_text">Lorem ipsum.</section>
+                <section class="textbox1_text">
+                Welkom bij stichting VistaCare Buurtzorg.<br>
+                Wij staan ervoor onze medemensen te ondersteunen bij het dagelijks leven.<br>
+                Ouderen, mensen met handicappen, iedereen die wij kunnen helpen, zullen wij voor zorgen om hun wat rust te bieden. <br>
+                Onze medewerkers staan altijd klaar om anderen te steunen waar nodig.<br>
+                </section>
             </section>
-
+            <!---
+            
             <section id="textbox2">
                 <section class="textbox2_text">Lorem ipsum.</section>
-            </section>
+            </section>    --->
         </div>
 
         <footer>
@@ -52,4 +58,4 @@
             </div>
         </footer>
 
-</body>
+</body> 
