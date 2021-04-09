@@ -33,6 +33,7 @@ body {
   display: flex;
   flex-flow: row nowrap;
   background: #B200FF; 
+  box-shadow: 5px 5px 15px #7d7d7d;
 }
   
 .navMenu {
@@ -126,7 +127,7 @@ body {
   /*footer settings*/
 .footer {
   position: fixed;
-  background-color: #B200FF;;
+  background-color: #B200FF;
   width: 100%;
   height: 8vh;
   left: 0;
