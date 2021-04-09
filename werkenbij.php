@@ -32,23 +32,22 @@
         </nav>
 
 
-        <div class="mainbody">
-            <div class="bannerimage"><img src="images/bannerimage.png" alt="banner homepage"
-                    style="width:165vh;height:55vh;padding-left:45vh;"></div>
+        <div class="mainbody"> 
 
-            <section id="textbox1">
-                <section class="textbox1_text">
-                Welkom bij stichting VistaCare Buurtzorg.<br>
-                Wij staan ervoor onze medemensen te ondersteunen bij het dagelijks leven.<br>
-                Ouderen, mensen met handicappen, iedereen die wij kunnen helpen, zullen wij voor zorgen om hun wat rust te bieden. <br>
-                Onze medewerkers staan altijd klaar om anderen te steunen waar nodig.<br>
+            <div class="werkimage"><img src="images/personeelwerk.jpg" alt="werkpage foto"
+                    style="width:100.5vh;height:32vh;padding-left:2.1vh;"></div>
+        
+            <section id="textbox_werk">
+                    <section class="werkenbij_text">
+                    <h2> Werken Bij VistaCare Buurtzorg</h2> <br>
+                    VistaCare Buurtzorg is altijd opzoek naar personeel dat klaar staat om mensen te kunnen helpen en ondersteunen.<br>
+                    Als u geinterreseerd bent bij ons te komen werken, bekijk onze vacatures dan maar eens.<br>
+                    Als u wilt soliciteren zult u een bevestiging ontvangen na het invullen van een van de sollicitatieformulieren. <br><br>
+                    Het kan voorkomen dat iemand anders u voor is met het soliciteren, of dat een vacature gesloten wordt. <br>
+                    Als dit het geval is, kunt u gerust ook een van onze andere vacatures bekijken.<br>
+                    </section>
                 </section>
-            </section>
-            <!---
-            
-            <section id="textbox2">
-                <section class="textbox2_text">Lorem ipsum.</section>
-            </section>    --->
+
         </div>
 
         <footer>
@@ -58,4 +57,4 @@
             </div>
         </footer>
 
-</body> 
+</body>  
