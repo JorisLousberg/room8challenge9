@@ -38,7 +38,7 @@
 
             <section id="textbox1">
                 <section class="textbox1_text">
-                Welkom bij stichting VistaCare Buurtzorg.<br>
+                <h3>Welkom bij stichting VistaCare Buurtzorg.</h3><br>
                 Wij staan ervoor onze medemensen te ondersteunen bij het dagelijks leven.<br>
                 Ouderen, mensen met handicappen, iedereen die wij kunnen helpen, zullen wij voor zorgen om hun wat rust te bieden. <br>
                 Onze medewerkers staan altijd klaar om anderen te steunen waar nodig.<br>

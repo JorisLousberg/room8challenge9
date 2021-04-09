@@ -87,7 +87,7 @@ body {
 
 #textbox1 {
   width: 75vw;
-  height: 16vh;
+  height: 19vh;
   margin: auto;
   box-shadow: 5px 5px 15px #7d7d7d;
   background-color: #ffffff;
@@ -95,7 +95,7 @@ body {
   text-align: center;
   font-weight: bold;
   font-size: 2vh;
-  margin-top: 3vh; 
+  margin-top: 2.5vh; 
 }
   
 .textbox1_text {

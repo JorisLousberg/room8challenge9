@@ -32,7 +32,7 @@
         </nav>
 
 
-        <div class="mainbody"> 
+        <div class="mainbody">
 
             <div class="werkimage"><img src="images/personeelwerk.jpg" alt="werkpage foto"
                     style="width:100.5vh;height:32vh;padding-left:2.1vh;"></div>
