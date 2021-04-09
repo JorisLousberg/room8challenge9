@@ -1,0 +1,34 @@
+body {
+  overflow-x: hidden;
+}
+
+.pagecon {
+  top: 0vh;
+  left: 0vh;
+  width: 100%;
+  height: 120vh;
+}
+
+.functietitel {
+  font-size: 4vh;
+}
+
+.naam {
+  margin-top: 1vh;
+  font-size: 3vh;
+}
+
+.vacatureblok {
+  margin-top: 1vh;
+  height: 10vh;
+  width: 80vw;
+  border: thin red;
+  color: blue;
+}
+
+.tekst {
+  height: 10vh;
+  width: 85vw;
+  border: thin blue;
+  color: purple;
+}
