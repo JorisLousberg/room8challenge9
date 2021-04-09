@@ -50,11 +50,12 @@
 
         </div>
 
-        <footer>
-            <div class="footer">
-                <div id="footercopyright">2021 &copy; VistaCare Buurtzorg</div>
-                <div id="footertext2">Telefoonnummer: 06 87654321</div>
-            </div>
-        </footer>
+    <footer>
+        <div class="footer">
+            <div id="footercopyright">2021 &copy; VistaCare Buurtzorg</div>
+                <a href="#" id="loginknop"> Inloggen </a> 
+            <div id="footertext2">Telefoonnummer: 06 87654321</div>
+        </div>
+    </footer> 
 
 </body>  

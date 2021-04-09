@@ -71,7 +71,7 @@ body {
   
 .navItem:hover {
   border-radius: 2px;
-  background-color: yellow;
+  background-color: #f5ec00;
 }
 
   /*middle main settings*/
@@ -151,6 +151,21 @@ body {
   font-size: 2.75vh;
   padding-top: 2.3vh;
   padding-right: 5.5vh;
+}
+
+#loginknop {
+  float: left;
+  margin-left: 2.5vw;
+  text-decoration: none;
+  font-size: 2.5vh;
+  margin-top: 2vh;
+  background-color: #f5ec00;
+  padding: 0.5vh;
+  border-radius: 1vh;
+  color: black;
+  font-weight: bold;
+  width: 8vw;
+  text-align: center; 
 }
 
 /* werkenbij pagina */
