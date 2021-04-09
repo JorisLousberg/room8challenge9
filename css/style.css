@@ -87,7 +87,7 @@ body {
 
 #textbox1 {
   width: 75vw;
-  height: 16vh;
+  height: 19vh;
   margin: auto;
   box-shadow: 5px 5px 15px #7d7d7d;
   background-color: #ffffff;
@@ -95,7 +95,7 @@ body {
   text-align: center;
   font-weight: bold;
   font-size: 2vh;
-  margin-top: 3vh; 
+  margin-top: 2.5vh; 
 }
   
 .textbox1_text {
@@ -151,4 +151,28 @@ body {
   font-size: 2.75vh;
   padding-top: 2.3vh;
   padding-right: 5.5vh;
+}
+
+/* werkenbij pagina */
+
+#textbox_werk { 
+  width: 47vw;
+  height: 21.5vh;
+  box-shadow: 5px 5px 15px #7d7d7d;
+  background-color: #ffffff;
+  border-radius: 8px;
+  text-align: left;
+  font-weight: bold;
+  font-size: 1.7vh;
+  margin-top: 1vh;
+  margin-left: 2vh; 
+}
+  
+.werkenbij_text {
+  padding: 3%;
+  text-decoration: none;
+} 
+
+.werkimage {
+  margin-top: 2vh; 
 }

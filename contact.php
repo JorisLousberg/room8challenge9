@@ -23,7 +23,7 @@
           <li class="navItem"><a class="navLink" href="index.php">Homepagina</a></li>
         </ul>
         <ul class="navList">
-          <li class="navItem"><a class="navLink" href="#">Werken bij</a></li>
+          <li class="navItem"><a class="navLink" href="werkenbij.php">Werken bij</a></li>
         </ul>
         <ul class="navList">
           <li class="navItem"><a class="navLink" href="contact.php">Contact Opnemen</a></li>
