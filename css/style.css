@@ -157,7 +157,7 @@ body {
   float: left;
   margin-left: 2.5vw;
   text-decoration: none;
-  font-size: 2.5vh;
+  font-size: 2.5vh; 
   margin-top: 2vh;
   background-color: #f5ec00;
   padding: 0.5vh;
@@ -171,15 +171,15 @@ body {
 /* werkenbij pagina */
 
 #textbox_werk { 
-  width: 47vw;
-  height: 21.5vh;
+  width: 34vw;
+  height: 34vh;
   box-shadow: 5px 5px 15px #7d7d7d;
   background-color: #ffffff;
   border-radius: 8px;
   text-align: left;
   font-weight: bold;
-  font-size: 1.7vh;
-  margin-top: 1vh;
+  font-size: 1.9vh;
+  margin-top: 2vh;
   margin-left: 2vh; 
 }
   

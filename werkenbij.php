@@ -35,16 +35,20 @@
         <div class="mainbody">
 
             <div class="werkimage"><img src="images/personeelwerk.jpg" alt="werkpage foto"
-                    style="width:100.5vh;height:32vh;padding-left:2.1vh;"></div>
+                    style="width:73.5vh;height:29vh;padding-left:2.1vh;"></div>
         
             <section id="textbox_werk">
                     <section class="werkenbij_text">
                     <h2> Werken Bij VistaCare Buurtzorg</h2> <br>
-                    VistaCare Buurtzorg is altijd opzoek naar personeel dat klaar staat om mensen te kunnen helpen en ondersteunen.<br>
-                    Als u geinterreseerd bent bij ons te komen werken, bekijk onze vacatures dan maar eens.<br>
-                    Als u wilt soliciteren zult u een bevestiging ontvangen na het invullen van een van de sollicitatieformulieren. <br><br>
-                    Het kan voorkomen dat iemand anders u voor is met het soliciteren, of dat een vacature gesloten wordt. <br>
-                    Als dit het geval is, kunt u gerust ook een van onze andere vacatures bekijken.<br>
+                    VistaCare Buurtzorg is altijd opzoek naar personeel dat klaar staat<br>
+                    om mensen te kunnen helpen en ondersteunen.<br>
+                    Als u geinterreseerd bent bij ons te komen werken, <br>
+                    bekijk onze vacatures dan maar eens.<br><br>
+                    Als u wilt soliciteren zult u een bevestiging ontvangen na het invullen<br>
+                     van een van de sollicitatieformulieren. <br>
+                    Het kan voorkomen dat iemand anders u voor is met het soliciteren,<br>
+                     of dat een vacature gesloten wordt. <br>
+                    Als dit het geval is, kunt u gerust een van onze andere vacatures bekijken.
                     </section>
                 </section>
 
@@ -58,4 +62,4 @@
         </div>
     </footer> 
 
-</body>  
+</body>   
