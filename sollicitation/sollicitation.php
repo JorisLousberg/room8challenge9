@@ -23,7 +23,7 @@
                         <li class="navItem"><a class="navLink" href="../index.php">Homepagina</a></li>
                     </ul>
                     <ul class="navList">
-                        <li class="navItem"><a class="navLink" href="#">Werken bij</a></li>
+                        <li class="navItem"><a class="navLink" href="../werkenbij.php">Werken bij</a></li>
                     </ul>
                     <ul class="navList">
                         <li class="navItem"><a class="navLink" href="../contact.php">Contact Opnemen</a></li>
@@ -35,7 +35,24 @@
 
         <div class="mainbody">
             <section id="vac_con"></section>
-            <section id="form_con"></section>
+            <section id="form_con"><div class="form">
+  <form action="" enctype="multipart/form-data" method="post">
+  <mark class='title1'><strong>client gegevens</strong></mark> <br/>
+  <input type="text" name="tb_clientid" value="" placeholder="Vul voornaam in"> <!--client id input -->
+  <input type="text" name="tb_license" value="" placeholder="Vul achternaam in"><br /> <!--license input -->
+  geboorte datum:<input type="date" name="tb_date" value="" ><br /> <!--license input -->
+  <input type="text" name="tb_city" value="" placeholder="Vul stad in"><br /> <!--city input -->
+  <input type="text" name="tb_street" value="" placeholder="Vul straat in"><br /> <!--street input -->
+  <input type="text" name="tb_housenumber" value="" placeholder="Vul huisnummer in"><br /> <!--housenumber input -->
+  <input type="text" name="tb_postnr" value="" placeholder="Vul postcode in"><br /> <!--postcode input -->
+  <input type="email" name="tb_email" value="" placeholder="Vul E-mail in"><br /> <!--email input -->
+  <input type="text" name="tb_telnum" value="" placeholder="Vul telefoon nummer in"><br /> <!--phonenumber input -->
+  
+    
+  <input type="hidden" name="frmInsertMenuitem" value="frmInsertMenuitem"> <br /> <!--form data values -->
+  <input type="submit" name="button_submit" value="versturen"> <!--data tranfer button -->
+  </form>
+</div></section>
         </div>
 
         <footer>
