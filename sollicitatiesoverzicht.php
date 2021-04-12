@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/sollicitatiesoverzicht.css">
-  <title>Buurtzorg VistaCare - Sollicitatie Overzicht</title>
+  <title>Buurtzorg - Sollicitatie Overzicht</title>
 </head>
 
 <body>
@@ -83,7 +83,7 @@
 
     <footer>
       <div class="footer">
-        <div id="footercopyright">2021 &copy; VistaCare Buurtzorg</div>
+        <div id="footercopyright">2021 &copy; VistaCare </div>
         <div id="footertext2">Telefoonnummer: 06 87654321</div>
       </div>
     </footer>

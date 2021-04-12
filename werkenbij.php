@@ -1,3 +1,11 @@
+<?php
+    if (!session_id()) session_start();
+    if(!isset($_SESSION['username'])) {
+        $portalbtn = "Inloggen";
+    } else {
+        $portalbtn = "Portal";
+    }
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -8,7 +16,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <title>Buurtzorg VistaCare - Home</title>
+    <title>Buurtzorg - Home</title>
 </head>
 
 <body>
@@ -41,13 +49,13 @@
             <section id="textbox_werk">
                     <section class="werkenbij_text">
                     <h2> Werken Bij VistaCare Buurtzorg</h2> <br>
-                    VistaCare Buurtzorg is altijd opzoek naar personeel dat klaar staat<br>
+                    VistaCare Buurtzorg is altijd op zoek naar personeel dat klaar staat<br>
                     om mensen te kunnen helpen en ondersteunen.<br>
-                    Als u geinterreseerd bent bij ons te komen werken, <br>
+                    Als u geinteresseerd bent bij ons te komen werken, <br>
                     bekijk onze vacatures dan maar eens.<br><br>
                     Als u wilt soliciteren zult u een bevestiging ontvangen na het invullen<br>
                      van een van de sollicitatieformulieren. <br>
-                    Het kan voorkomen dat iemand anders u voor is met het soliciteren,<br>
+                    Het kan voorkomen dat iemand anders u voor is met soliciteren,<br>
                      of dat een vacature gesloten wordt. <br>
                     Als dit het geval is, kunt u gerust een van onze andere vacatures bekijken.
                     </section>
@@ -57,8 +65,11 @@
 
     <footer>
         <div class="footer">
-            <div id="footercopyright">2021 &copy; VistaCare Buurtzorg</div>
-                <a href="#" id="loginknop"> Inloggen </a> 
+            <div id="footercopyright">2021 &copy; VistaCare </div>
+              <a href="./loginbz/index.php" id="loginknop"><?php echo $portalbtn?></a>
+              <?php if (isset($_SESSION['username'])) {
+                            echo "<a href='./loginbz/includes/logout.inc.php' id='loginknop'>Uitloggen</a>";
+                }?>
             <div id="footertext2">Telefoonnummer: 06 87654321</div>
         </div>
     </footer> 
