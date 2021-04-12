@@ -101,15 +101,15 @@
         </a>";
 
         switch ($_SESSION['typeid']) {
+
             case 0:
+                echo $vacatureplaatsen . $vacatureoverzicht; //$adminrecht hoort hierbij
+            break;
+
+            case 1:
                 echo $vacatureplaatsen . $vacatureoverzicht;
             break;
-            case 1:
-                echo $werkplaats . $medewerker;
-            break;
-            case 2:
-                echo $werkplaats . $medewerker . $admin;
-            break;
+
             default:
             session_destroy();
             echo "<span><b>Error:</b> Try logging in again.</span>";
