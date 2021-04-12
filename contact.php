@@ -94,7 +94,7 @@
               <?php if (isset($_SESSION['username'])) {
                             echo "<a href='./loginbz/includes/logout.inc.php' id='loginknop'>Uitloggen</a>";
                 }?>
-            <div id="footertext2">Telefoonnummer: 06 87654321</div>
+            <div id="footertext2"><i class="fas fa-phone-square-alt"></i>&nbsp;Telefoonnummer: 06 87654321</div>
         </div>
     </footer> 
 
