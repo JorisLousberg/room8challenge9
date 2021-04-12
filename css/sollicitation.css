@@ -15,3 +15,16 @@
     margin-left: 5vw;
     border-radius: 5px;
 }
+
+.form{
+
+    background-color:  #FFC80F;
+    width: fit-content;
+    padding: 1vh;
+    border-radius: 5px;
+}
+
+.title1{
+    background-color: transparent;
+    font-size: 3vh;
+}
