@@ -50,18 +50,48 @@
         
             <section id="textbox_werk">
                     <section class="werkenbij_text">
-                    <h2> Werken Bij VistaCare Buurtzorg</h2> <br>
-                    VistaCare Buurtzorg is altijd op zoek naar personeel dat klaar staat<br>
+                    <h2> Werken Bij Buurtzorg</h2> <br>
+                    Buurtzorg is altijd op zoek naar personeel dat klaar staat<br>
                     om mensen te kunnen helpen en ondersteunen.<br>
                     Als u geinteresseerd bent bij ons te komen werken, <br>
                     bekijk onze vacatures dan maar eens.<br><br>
-                    Als u wilt soliciteren zult u een bevestiging ontvangen na het invullen<br>
+                    Als u wilt solliciteren zult u een bevestiging ontvangen na het invullen<br>
                      van een van de sollicitatieformulieren. <br>
                     Het kan voorkomen dat iemand anders u voor is met soliciteren,<br>
                      of dat een vacature gesloten wordt. <br>
                     Als dit het geval is, kunt u gerust een van onze andere vacatures bekijken.
                     </section>
                 </section>
+
+        </div>
+
+        <div id= "soll">
+
+            <div class= "vaca"> Vacatures </div><br />
+
+    <?php
+    
+        require_once ('./connection.php');
+
+        $sql = "SELECT id, vacature_type, job_location, job_closedate FROM tb_vacature";
+
+        $stmt = $pdo->prepare($sql);
+        $stmt->execute();
+        $result = $stmt->fetchAll();
+
+        $job= "<div class='vacature'>";
+
+        foreach($result as $key => $row){
+
+            $job .="<div class= 'box'><div class='jobtitle'>" . $row['vacature_type'] . "</div><br /><div class='location'>" . "locatie: " . $row['job_location'] . "</div><div class='date'>" . "Sluitings datum: " . $row['job_closedate'] . "<a href='./sollicitation/sollicitation.php?id=" . $row['id'] . "'></div><div class='type'>" . "<button class='knop' type='button'> INFO </button></div></a></div><br />";
+
+        }
+
+        $job .= "</div>";
+
+        echo $job;
+
+    ?>
 
         </div>
 
