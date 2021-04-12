@@ -10,29 +10,30 @@
   <link rel="stylesheet" href="css/style.css" type="text/css">
   <link rel="stylesheet" href="css/contact.css" type="text/css">
   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/77cadcfd34.js" crossorigin="anonymous"></script>
   <title>Buurtzorg VistaCare - Contact</title>
 </head>
 
 <body>
 
-  <nav>
+<nav>
     <section class="navContainer">
 
-      <div class="logoWrapper"> <a href="index.php"><img src="images/logo_buurtzorg.png" alt="logo website"
-            style="width:15.1vh;height:11vh;"></a> </div>
-      <nav class="navMenu">
-        <ul class="navList">
-          <li class="navItem"><a class="navLink" href="index.php">Homepagina</a></li>
-        </ul>
-        <ul class="navList">
-          <li class="navItem"><a class="navLink" href="werkenbij.php">Werken bij</a></li>
-        </ul>
-        <ul class="navList">
-          <li class="navItem"><a class="navLink" href="contact.php">Contact Opnemen</a></li>
-        </ul>
-      </nav>
-    </section>
-  </nav>
+        <div class="logoWrapper"> <a href="index.php"><img src="images/logo_buurtzorg.png" alt="logo website"
+                    style="width:15.1vh;height:11vh;"></a> </div>
+                <nav class="navMenu">
+                    <ul class="navList">
+                      <li class="navItem"><a class="navLink" href="index.php"><i class="fas fa-home"></i>&nbsp;Homepagina</a></li>
+                    </ul>
+                    <ul class="navList">
+                      <li class="navItem"><a class="navLink" href="werkenbij.php"><i class="fas fa-briefcase"></i>&nbsp;Werken bij</a></li>
+                    </ul>
+                    <ul class="navList">
+                      <li class="navItem"><a class="navLink" href="contact.php"><i class="fas fa-phone-alt"></i>&nbsp;Contact Opnemen</a></li>
+                    </ul>
+                </nav>
+            </section> 
+        </nav>
 
   <div class="contactbody">
 
@@ -81,7 +82,7 @@
   <footer>
     <div class="footer">
       <div id="footercopyright">2021 &copy; VistaCare Buurtzorg</div>
-        <a href="#" id="loginknop"> Inloggen </a> 
+        <a href="#" id="loginknop"><i class="fas fa-user-circle"></i>&nbsp; Inloggen </a> 
       <div id="footertext2">Telefoonnummer: 06 87654321</div>
     </div>
   </footer> 
