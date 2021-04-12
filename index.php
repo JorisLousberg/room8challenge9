@@ -1,8 +1,15 @@
+<?php
+    if (!session_id()) session_start();
+    if(!isset($_SESSION['username'])) {
+        $portalbtn = "Inloggen";
+    } else {
+        $portalbtn = "Portal";
+    }
+?>
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <title>Homepagina </title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,6 +17,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/77cadcfd34.js" crossorigin="anonymous"></script>
+    <title>Buurtzorg - Home</title>
 </head>
 
 <body>
@@ -33,14 +41,13 @@
             </section> 
         </nav>
 
-
         <div class="mainbody">
             <div class="bannerimage"><img src="images/bannerimage.png" alt="banner homepage"
                     style="width:165vh;height:55vh;padding-left:45vh;"></div>
 
             <section id="textbox1">
                 <section class="textbox1_text">
-                <h3>Welkom bij stichting VistaCare Buurtzorg.</h3><br>
+                <h3>Welkom bij stichting Buurtzorg.</h3><br>
                 Wij staan ervoor onze medemensen te ondersteunen bij het dagelijks leven.<br>
                 Ouderen, mensen met handicappen, iedereen die wij kunnen helpen, zullen wij voor zorgen om hun wat rust te bieden. <br>
                 Onze medewerkers staan altijd klaar om anderen te steunen waar nodig.<br>
@@ -54,11 +61,14 @@
         </div>
 
         <footer>
-            <div class="footer">
-                <div id="footercopyright">2021 &copy; VistaCare Buurtzorg</div>
-                <a href="#" id="loginknop"><i class="fas fa-user-circle"></i>&nbsp; Inloggen </a> 
-                <div id="footertext2">Telefoonnummer: 06 87654321</div>
-            </div>
-        </footer> 
+        <div class="footer">
+            <div id="footercopyright">2021 &copy; VistaCare </div>
+              <a href="./loginbz/index.php" id="loginknop"><i class="fas fa-user-circle"></i>&nbsp;<?php echo $portalbtn?></a>
+              <?php if (isset($_SESSION['username'])) {
+                            echo "<a href='./loginbz/includes/logout.inc.php' id='loginknop'>Uitloggen</a>";
+                }?>
+            <div id="footertext2">Telefoonnummer: 06 87654321</div>
+        </div>
+    </footer>  
 
 </body> 

@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/sollicitation.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <title>Buurtzorg VistaCare - Home</title>
+    <title>Buurtzorg - Home</title>
 </head>
 
 <body>
@@ -57,7 +57,7 @@
 
         <footer>
             <div class="footer">
-                <div id="footercopyright">2021 &copy; VistaCare Buurtzorg</div>
+                <div id="footercopyright">2021 &copy; VistaCare </div>
                 <div id="footertext2">Telefoonnummer: 06 87654321</div>
             </div>
         </footer>

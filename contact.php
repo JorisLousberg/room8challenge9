@@ -1,3 +1,11 @@
+<?php
+    if (!session_id()) session_start();
+    if(!isset($_SESSION['username'])) {
+        $portalbtn = "Inloggen";
+    } else {
+        $portalbtn = "Portal";
+    }
+?>
 <!DOCTYPE html>
 <html lang="nl">
 
@@ -11,7 +19,7 @@
   <link rel="stylesheet" href="css/contact.css" type="text/css">
   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/77cadcfd34.js" crossorigin="anonymous"></script>
-  <title>Buurtzorg VistaCare - Contact</title>
+  <title>Buurtzorg - Contact</title>
 </head>
 
 <body>
@@ -80,12 +88,15 @@
   </div>
 
   <footer>
-    <div class="footer">
-      <div id="footercopyright">2021 &copy; VistaCare Buurtzorg</div>
-        <a href="#" id="loginknop"><i class="fas fa-user-circle"></i>&nbsp; Inloggen </a> 
-      <div id="footertext2">Telefoonnummer: 06 87654321</div>
-    </div>
-  </footer> 
+        <div class="footer">
+            <div id="footercopyright">2021 &copy; VistaCare </div>
+              <a href="./loginbz/index.php" id="loginknop"><i class="fas fa-user-circle"></i>&nbsp;<?php echo $portalbtn?></a>
+              <?php if (isset($_SESSION['username'])) {
+                            echo "<a href='./loginbz/includes/logout.inc.php' id='loginknop'>Uitloggen</a>";
+                }?>
+            <div id="footertext2">Telefoonnummer: 06 87654321</div>
+        </div>
+    </footer> 
 
 </body>
 </html>
