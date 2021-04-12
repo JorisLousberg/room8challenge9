@@ -1,10 +1,10 @@
 <?php 
     function getDbConnection() {
         $dbhost = "localhost";
-        $dbusername = ""; //zelf invullen!
-        $dbpass = ""; //zelf invullen!
+        $dbusername = "Melissa"; 
+        $dbpass     = "Melissa01";
         $dbname = "db_gr8_buurtzorg"; 
-
+        
         $conn       = "";          // connection string
         $pdo        = "";          // handler
         $charset = 'utf8mb4'; 
@@ -18,22 +18,21 @@
         ];
 
         $vacature_type = $_POST['vacature_type'];
-        $job_position = $_POST['job_position'];
         $function_tasks = $_POST['function_tasks'];
-        $company_name = $_POST['company_name'];
-        $company_info = $_POST['company_info'];
+        $contact_info_name = $_POST['contact_info_name'];
+        $contact_info_phone = $_POST['contact_info_phone'];
         $job_requirements = $_POST['job_requirements'];
         $job_experience = $_POST['job_experience'];
         $job_location = $_POST['job_location'];
         $job_workhours = $_POST['job_workhours'];
-        $job_salary = $_POST['job_salary'];
-        $job_benefits = $_POST['job_benefits']; 
-        $status = $_POST['status'];
+        $job_salary = $_POST['job_salary']; 
+        $job_closedate = $_POST['job_closedate'];
+        $job_status = $_POST['job_status'];
 
-        $sql = "INSERT INTO `tb_vacature` ( `vacature_type`, `job_position`, `function_tasks`, `company_name`, `company_info`, `job_requirements`, `job_experience`,
-         `job_location`, `job_workhours`, `job_salary`, `job_benefits`, `status`)
-        VALUES ('$vacature_type', '$job_position', '$function_tasks', '$company_name', '$company_info', '$job_requirements', '$job_experience',
-         '$job_location', '$job_workhours', '$job_salary', '$$job_benefits', '$status');"; 
+        $sql = "INSERT INTO `tb_vacature` ( `vacature_type`, `function_tasks`, `contact_info_name`, `contact_info_phone`, `job_requirements`, 
+        `job_experience`, `job_location`, `job_workhours`, `job_salary`, `job_closedate`, `job_status`)
+        VALUES ('$vacature_type', '$function_tasks', '$contact_info_name', '$contact_info_phone', '$job_requirements', '$job_experience',
+         '$job_location', '$job_workhours', '$job_salary', '$job_closedate', '$job_status');"; 
         mysqli_query($conn, $sql); 
  
         header("Location: vacaturetemplate.php?opslaan=success");
