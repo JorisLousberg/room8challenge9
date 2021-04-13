@@ -1,3 +1,12 @@
+<?php 
+    session_start();
+    if(!isset($_SESSION['username'])) { // not logged in 
+        header("location:loginbz/index.php");
+    } else if($_SESSION['typeid'] !== 1 || $_SESSION['typeid'] !== 2) { // insufficient rights
+        header("location:loginbz/portal.php");
+    }
+?>
+
 <!DOCTYPE HTML> <html>
 <head>
     <title>Vacature Upload Template</title>
