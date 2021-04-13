@@ -7,10 +7,10 @@
     }
 ?>
 <!DOCTYPE html>
-<html lang="nl">
+<html lang="en">
 
 <head>
-    <title> Werken bij </title>
+    <title> Work at </title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -49,16 +49,12 @@
         
             <section id="textbox_werk">
                     <section class="werkenbij_text">
-                    <h2> Werken Bij Buurtzorg</h2> <br>
-                    Buurtzorg is altijd op zoek naar personeel dat klaar staat<br>
-                    om mensen te kunnen helpen en ondersteunen.<br>
-                    Als u geinteresseerd bent bij ons te komen werken, <br>
-                    bekijk onze vacatures dan maar eens.<br><br>
-                    Als u wilt solliciteren zult u een bevestiging ontvangen na het invullen<br>
-                     van een van de sollicitatieformulieren. <br>
-                    Het kan voorkomen dat iemand anders u voor is met soliciteren,<br>
-                     of dat een vacature gesloten wordt. <br>
-                    Als dit het geval is, kunt u gerust een van onze andere vacatures bekijken.
+                    <h2> Working at Buurtzorg</h2> <br>
+                    Buurtzorg is always looking for staff ready to help and support our clients. <br />
+                    Take a look at our job offers if you are interested to work for us. <br />
+                    After applying for a job by filling in the form you’ll recieve a confirmation notice. <br />
+                    It’s possible that someone else is ahead of you with applying or that the job offer closes. <br />
+                    If that is the case, feel free to apply for any of our other job offers. <br />
                     </section>
                 </section>
 
@@ -66,7 +62,7 @@
 
         <div id= "soll">
 
-            <div class= "vaca"> Vacatures </div><br />
+            <div class= "vaca"> Job applications </div><br />
 
     <?php
     
@@ -79,11 +75,11 @@
         $result = $stmt->fetchAll();
 
         $job= "<div class='vacature'>";
-        $button= "<div id='eng'><a href='workat.php'><img src='./images/ENG.png' width= '50px'></a></div>";
+        $button= "<div id='eng'><a href='werkenbij.php'><img src='./images/NL.png' width= '50px'></a></div>";
 
         foreach($result as $key => $row){
 
-            $job .="<div class= 'box'><div class='jobtitle'>" . $row['vacature_type'] . "</div><br /><div class='location'>" . "locatie: " . $row['job_location'] . "</div><div class='date'>" . "Sluitings datum: " . $row['job_closedate'] . "<a href='./sollicitation/sollicitation.php?id=" . $row['id'] . "'></div><div class='type'>" . "<button class='knop' type='button'> INFO </button></div></a></div><br />";
+            $job .="<div class= 'box'><div class='jobtitle'>" . $row['vacature_type'] . "</div><br /><div class='location'>" . "location: " . $row['job_location'] . "</div><div class='date'>" . "Closing date: " . $row['job_closedate'] . "<a href='./sollicitation/sollicitation.php?id=" . $row['id'] . "'></div><div class='type'>" . "<button class='knop' type='button'> INFO </button></div></a></div><br />";
 
         }
 

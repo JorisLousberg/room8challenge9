@@ -34,7 +34,34 @@
 
 
         <div class="mainbody">
-            <section id="vac_con"></section>
+            <?php
+            require_once ('../connection.php');
+            $sql = "SELECT * FROM tb_vacature WHERE id =" . $_GET['id'];
+
+$stmt = $pdo->prepare($sql);
+$stmt->execute();
+$results = $stmt->fetchAll();
+$vacatureinfo = "<section id='vac_con'>";
+
+foreach($results as $key => $row) {
+  $vacatureinfo .= "<div><h1>" . $row['vacature_type'] . "</h1></div> " . 
+                   "<div>" . $row['function_tasks'] . "</div><br />" .
+                   "<div> <h3>eisen:</h3>" . $row['job_requirements'] . "</div><br />" .
+                   "<div> <h3>gewenste ervaring:</h3>" . $row['job_experience'] . "</div><br />" .
+                   "<div> <h3>locatie:</h3>" . $row['job_location'] . "</div><br />" .
+                   "<div> <h3>uren en salaris:</h3>" . $row['job_workhours'] . "&nbsp; &nbsp; &nbsp;"
+                           . $row['job_salary'] . "</div><br />" .
+                   "<div> <h3>contact gegevens:</h3>" . $row['contact_info_name'] . "</div>" .
+                   "<div>" . $row['contact_info_phone'] . "</div>" .
+                   "<div> close date: " . $row['job_closedate'] . "</div>" .
+                   "<div>the vacency " . $row['job_status'] . "</div>"
+                   ;
+}
+$vac_id = $row['id'];
+$vacatureinfo .= "</div>";
+
+echo $vacatureinfo; ?>
+            </section>
             <section id="form_con">
                 <?php
                 //gegevens in de database opslaan
