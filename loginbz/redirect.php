@@ -1,13 +1,13 @@
-<?php
+<?php // not used
     if (!session_id()) session_start();
     if(isset($_SESSION['username'])) {
         echo "<h1>Please wait while you are being redirected</h1>";
         switch($_SESSION['typeid']) {
             case 1:
-                header("location:./portal.php");
+                header("location:portal.php");
             break;
             case 2:
-                header("location:./portal.php");
+                header("location:portal.php");
             break;
         default:
             session_destroy();

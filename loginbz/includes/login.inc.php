@@ -23,7 +23,7 @@
                 if($count > 0) {
                     $_SESSION['username'] = $_POST['username'];
                     $_SESSION['typeid'] = $row['role_id'];
-                    header("location:./redirect.php"); 
+                    header("location:./portal.php"); 
                 } else {
                     $message = '<label class="error-msg">Onjuiste gebruikersnaam en/of wachtwoord!</label>';
                 }
