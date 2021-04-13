@@ -1,29 +1,33 @@
 <!DOCTYPE HTML> <html>
 <head>
-<title>Vacature Template</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" type="text/css" href="css/vacaturetemplate.css">
-<link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Vacature Upload Template</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="favicon/logo_buurtzorg.favicon.png"/>
+    <link rel="stylesheet" type="text/css" href="css/vacaturetemplate.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/77cadcfd34.js" crossorigin="anonymous"></script>
+    <title>Buurtzorg - Vacature Upload Template</title>
 </head> 
     <div class="pagecon">
             <nav>
                 <section class="navContainer">
                     <div class="logoWrapper"> <a href="index.php"><img src="images/logo_buurtzorg.png" alt="logo website"
                                 style="width:15.1vh;height:11vh;"></a> </div>
-                    <nav class="navMenu">
-                        <ul class="navList">
-                            <li class="navItem"><a class="navLink" href="index.php">Homepagina</a></li>
-                        </ul>
-                        <ul class="navList">
-                            <li class="navItem"><a class="navLink" href="werkenbij.php">Werken bij</a></li>
-                        </ul>
-                        <ul class="navList">
-                            <li class="navItem"><a class="navLink" href="contact.php">Contact Opnemen</a></li>
-                        </ul>
-                    </nav>
-                </section>  
-            </nav> 
+                        <nav class="navMenu">
+                            <ul class="navList">
+                                <li class="navItem"><a class="navLink" href="index.php"><i class="fas fa-home"></i>&nbsp;Homepagina</a></li>
+                            </ul>
+                            <ul class="navList">
+                                <li class="navItem"><a class="navLink" href="werkenbij.php"><i class="fas fa-briefcase"></i>&nbsp;Werken bij</a></li>
+                            </ul>
+                            <ul class="navList">
+                                <li class="navItem"><a class="navLink" href="contact.php"><i class="fas fa-phone-alt"></i>&nbsp;Contact Opnemen</a></li>
+                            </ul>
+                        </nav>
+                </section>   
+            </nav>  
 
         <div class="uploadblock">  
             <form action="vacatureupload.php" method="POST"> 
