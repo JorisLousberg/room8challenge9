@@ -3,9 +3,6 @@
     if(isset($_SESSION['username'])) {
         echo "<h1>Please wait while you are being redirected</h1>";
         switch($_SESSION['typeid']) {
-            case 0:
-                header("location:./portal.php");
-            break;
             case 1:
                 header("location:./portal.php");
             break;

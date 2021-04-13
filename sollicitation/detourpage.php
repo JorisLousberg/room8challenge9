@@ -34,31 +34,9 @@
 
 
         <div class="mainbody">
-            <section id="vac_con"></section>
-            <section id="form_con">
-                <?php
-                //gegevens in de database opslaan
-                //1. we maken een formulier voor de input van de gegevens
-                //2. we maken connectie met de database
-                //3. we slaan de ingevoerde gegevens op in de database 
-                if(isset($_POST['frmInsertSolResp'])){
-                    //opslaan van gegevens
-                    print_r($_POST);
-                    include_once('../connection.php'); //connectie met DB maken
-                    include_once("collect.sol.inc.php");    //Gegevens uit formulier halen
-                    include_once("insert.sol.inc.php");    //opslaan van gegevens in de DB 
-                    $sol_name = $forname + $lastname;?> 
-
-                        <!--na het opslaan komt een js functie-->
-                        <script>setTimeout(function () {
-                        window.open('detourpage.php', '_top');
-                        }, 10); </script><?php //na een seconde wordt de user naar het menu gestuurd
-                } else {
-                    //als er geen post dan toont hij het formulier
-                    include_once('form.sol.inc.php');
-                } 
-            ?>
-            </section>
+           <section class="thankcon">
+               bedankt <?php echo $sol_name; ?> voor het solliciteren bij ons!
+           </section>
         </div>
 
         <footer>
