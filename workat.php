@@ -79,7 +79,7 @@
 
         foreach($result as $key => $row){
 
-            $job .="<div class= 'box'><div class='jobtitle'>" . $row['vacature_type'] . "</div><br /><div class='location'>" . "location: " . $row['job_location'] . "</div><div class='date'>" . "Closing date: " . $row['job_closedate'] . "<a href='./sollicitation/sollicitation.php?id=" . $row['id'] . "'></div><div class='type'>" . "<button class='knop' type='button'> INFO </button></div></a></div><br />";
+            $job .="<div class= 'box'><div class='jobtitle'>" . $row['vacature_type'] . "</div><br /><div class='location'>" . "location: " . $row['job_location'] . "</div><div class='date'>" . "Closing date: " . $row['job_closedate'] . "<a href='./application/application_en.php?id=" . $row['id'] . "'></div><div class='type'>" . "<button class='knop' type='button'> INFO </button></div></a></div><br />";
 
         }
 
