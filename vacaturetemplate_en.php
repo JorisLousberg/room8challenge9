@@ -42,7 +42,7 @@
             <form action="vacatureupload_en.php" method="POST"> 
                         <h3>Fill in the information for the vacancy here. [english variant!]</h3> <br><br>
  
-                        <label for="vacature_type">Naam baan van Vacature:</label> 
+                        <label for="vacature_type">Name of the job in the Vacature:</label> 
                             <select name="vacature_type">
                                 <option value="Verzorgende A">Caretaker A</option> 
                                 <option value="Verzorgende B">Caretaker B</option> 
