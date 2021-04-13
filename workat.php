@@ -68,7 +68,7 @@
     
         require_once ('./connection.php');
 
-        $sql = "SELECT id, vacature_type, job_location, job_closedate FROM tb_vacature";
+        $sql = "SELECT id, vacature_type, job_location, job_closedate FROM tb_vacature_en";
 
         $stmt = $pdo->prepare($sql);
         $stmt->execute();
