@@ -37,7 +37,7 @@
         <div class="mainbody">
            <section class="thankcon">
                thank you <?php include_once('../connection.php');
-               $sql = "SELECT for_name FROM tb_application_responses_test WHERE id=(SELECT max(id) FROM tb_application_responses_test)";
+               $sql = "SELECT for_name FROM tb_application_responses_en WHERE id=(SELECT max(id) FROM tb_application_responses_en)";
                $stmt = $pdo->prepare($sql);
                $stmt->execute();
                $result = $stmt->fetchAll(); 

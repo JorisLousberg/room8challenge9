@@ -3,8 +3,8 @@
 function getDbConnection(){
 
     $dbhost     = "localhost";
-    $dbuser     = "Melissa";
-    $dbpass     = "Melissa01";
+    $dbuser     = "Melis";
+    $dbpass     = "Miesd1984!";
     $dbname     = "db_gr8_buurtzorg";
     $conn       = "";          // connection string
     $pdo        = "";          // handler

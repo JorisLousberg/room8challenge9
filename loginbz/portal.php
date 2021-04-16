@@ -74,7 +74,7 @@
     <?php 
 
         $vacatureplaatsen =
-        "<a href='../agenda.php' class='link'>
+        "<a href='../vacaturetemplate.php' class='link'>
             <div class='cont'>
                 <div class='tx'>
                     <span>Nieuwe vacature(s) plaatsen</span>
